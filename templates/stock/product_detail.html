@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% load static %}
+{% load markdownify %}
+{% block title %}Shop {{ product.name }}{% endblock %}
+{% block content %}
+<div class="row">
+    <div class="col-md-10">
+        {% if messages %}
+            {% for message in messages %}
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong><i class="bi-check-circle-fill" style="font-size: 1rem;"></i></strong> {{ message }}
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {% endfor %}
+        {% endif %}
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card mb-3 border-0" style="max-width: auto;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="{% if product.image %}{{ product.image.url }}{% else %}{% static 'images/How-to-Give-Your-E-Commerce-No-Results-Page-the-Power-to-Sell.png' %}{% endif %}" class="card-img" alt="..." style="max-width: 90%;">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <p class="card-text product_name_detail">
+                                {{ product.name }}
+                                <a href="{% url 'stock:change_product' product.slug %}">
+                                    <i class="bi-pencil-square text-warning" style="font-size: 2rem;"></i>
+                                </a>
+                            </p>
+                            <p class="card-text product_type"><small>Product Type: <a class="pro_type" href="{{ type.get_absolute_url }}">{{ type|title }}</a></small></p><br>
+                            <div class="border-bottom"></div>
+                            {% if product.disc_price %}
+                            <p class="card-text product_price_detail">UGX {{ product.disc_price }}</p>
+                            <p class="product__discount_price_detail">
+                                <del>UGX {{ product.price }}</del>
+                                <span class="badge bg-light text-warning disc">-{{ product.prec }}%</span></h1>
+                            </p>
+                            {% else %}
+                            <p class="card-text product_price_detail">UGX {{ product.price }}</p>
+                            {% endif %}
+                            <button type="button" class="btn btn-warning btn-block text-white">ADD TO CART</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card border-0" style="width: auto;">
+                    <div class="card-body">
+                    <h5 class="card-title text-warning">Product Detail</h5>
+                    
+                    <p class="card-text">{{ product.desc|linebreaks }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="card border-0" style="width: auto;">
+                    <div class="card-body border-0">
+                    <h5 class="card-title text-warning">Specifications</h5>
+                    <div class="border p-3">
+                        <h6 class="card-title">KEY FEATURES</h6>
+                        <hr>
+                        <p class="card-text">{{ product.specs|markdownify }}</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div class="card border-0" style="width: auto;">
+                    <div class="card-body border">
+                    <h5 class="card-title  text-warning">Review About This Product</h5>
+                    <div class="border p-3">
+                        <h6 class="card-title">KEY FEATURES</h6>
+                        <hr>
+                        <p class="card-text">{{ product.specs|markdownify }}</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="alert alert-warning alert-dismissible fade show" role="alert" style="width: 20rem;">
+            {% if request.user.is_authenticated %}
+            {{ request.user.username|title }}, You can now write message and change product
+            {% else %}
+            Login Required for use of this function
+            {% endif %}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="card border-0" style="width: 20rem;">
+            <div class="card-body">
+                <h5 class="card-title text-warning p-2 border-bottom" style="font-size: 0.9rem;">Send & View message About this Product</h5>
+                <p class="card-text p-2">You can send Report or Message about this product to help us make things better, Thank you!</p>
+                <a href="{% url 'stock:product_message' product.slug %}" class="btn btn-outline-warning btn-block">Create message</a>
+                <a href="{% url 'stock:all_messages' product.slug %}" class="btn btn-warning text-white btn-block">Product messages</a>
+            </div>
+        </div>
+        <div class="card border-0 mt-2" style="width: 20rem;">
+            <div class="card-body">
+                <h5 class="card-title text-warning p-2 border-bottom" style="font-size: 0.9rem;">Change Product Details</h5>
+                <p class="card-text p-2">You can send Edit and Change Product Details Including Prices and etc, Thank you!</p>
+                <a href="{% url 'stock:change_product' product.slug %}" class="btn btn-outline-warning btn-block">Change Product</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

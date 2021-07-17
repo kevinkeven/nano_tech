@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Signup{% endblock %}
+
+{% block navbar %}
+{% endblock %}
+{% block content %}
+<div class="d-flex justify-content-center">
+    <div class="card border-0" style="width: 40rem;">
+        <i class="bi-cart-fill mr-1 text-warning p-2 mt-4" style="font-size: 2rem; margin-left: 10rem;">Nano-Tech</i>
+        <form method="POST" class="p-4">
+            {% crispy form %}
+            {% csrf_token %}
+        </form>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block title %}Aboutus  -  Nano Tech{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center">
+    <div class="card border-0 p-2" style="width: 55rem;">
+        <div class="row">
+            <div class="col-sm-4">
+                <img src="{% static 'images/nano.jpg' %}" class="img-fluid" alt="Responsive image" style="max-width: 20rem;">
+            </div>
+            <div class="col-sm-8">
+                <div class="p-5 lead">
+                    <ul class="list-group">
+                        <li class="list-group-item border-0">Location: Shop 32, Second floor Novia house.</li>
+                        <li class="list-group-item border-0">Tel: 070000000/07888888888</li>
+                        <li class="list-group-item border-0">Email: nano@tech.com.</li>
+                        <li class="list-group-item border-0">Slogan: She sell quality.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

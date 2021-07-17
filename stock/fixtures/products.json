@@ -1,0 +1,90 @@
+[
+{
+  "model": "stock.producttype",
+  "pk": 1,
+  "fields": {
+    "name": "desktop",
+    "slug": "desktop"
+  }
+},
+{
+  "model": "stock.producttype",
+  "pk": 2,
+  "fields": {
+    "name": "laptop",
+    "slug": "laptop"
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 1,
+  "fields": {
+    "name": "Dell 5310 (2020) - 2.4\"\" 8MB RAM 500MB ROM 0.2MP 1200mAh - Black",
+    "image": "product/2021/07/13/1.jpg",
+    "slug": "dell-5310-2020-24-8mb-ram-500mb-rom-02mp-1200mah-black",
+    "product_type": 2,
+    "desc": "Dell Latitude E5440\r\n\r\nDo you want to boost your office performance by increasing productivity? Then 14-inch Dell Latitude E5440 that is carbon-neutral is the most recommendable and it is readily available at our Jumia Uganda. Latitude E5440 is efficient for carrying out design projects and office use because it is a Windows 10 Professional Operating System. It comes with an Intel Core i3 processor that allows shifting between applications and also makes multitasking easy and quick. With its HD screen, the images are crisp and clear thus enhancing your experience whether watching movies, typing, or browsing.\r\nDell Latitude E5440 Features\r\n\r\n    Efficient\r\n\r\nDell Latitude E5440 entails an anti-glared matte meaning you can work in bright lighting conditions with no appearance of disturbing reflections. Besides, its Intel Core i3 ensures speedy-performance because it runs nominal and also contains a Turbo Boost. With the a good resolution, it means that you can adequately view the angles from any point. Its efficiency is further demonstrated by its HD Intel Graphics 4400 which is effective for graphic productivity and when 3D acceleration is needed. Latitude E5440 provides ample storage space and efficiency in accessing often-used data due to its two-channel memory, Hard Disk Drive 500GB SATA altogether with 4GB Ram. You can work for long hours without worrying about downtime because E5440 comes with frugal power consumption. When idle, consumption rest below 9 Watts while the ULV CPU significantly maintains maximum loading below 46-53 Watts which is a necessity for exceptional runtime.\r\n\r\n    Wireless Connectivity\r\n\r\nThe E5540 is equipped with the Intel Dual Band Wireless-AC 7260 chipset that facilitates the modern 802.11ac and 802.11 a/b/g/n Wi-Fi altogether with a configuration of 2*2. Its connectivity is reliable because it comes with an in-built Gigabit Ethernet. Moreover, Dell E5540 contains several ports.\r\n\r\n    Easy and Comfortable to use\r\n\r\nDell Latitude E5440 contains a fibre- glass armour- plated lid that can be warped hence comfortable and easy to use. The keyboard’s firm and soft keys come with features such as concave surface, medium drop, and clear pressure point that provides easiness and accuracy since each key is on its base. Its Touch pad is featured with a third mouse button and a TrackPoint which is easy and accurate to use. You can also dent the logo with ease because it is centrally located. It also has a light-sleeked rubber-coat surface that gives it an ideal-quality while the rubber lip provides the lid with a smooth padded closure hence making it comfortable to use. Additionally, aluminium-clad gives Dell a sturdy impression. The four USB ports give the correct peripheral ports.\r\n\r\n    Safe to use\r\n\r\nDell Latitude E5440 Security is also supported by a Trusted Platform Module and a Smart Card reader. Besides, a secure environment can be established through the Protected Workshop software that prevents attackers from accessing the system.\r\nDell Latitude E5440 Specs Summary\r\n\r\nConclusion\r\n\r\nTry Dell Latitude E5440 for strong and demanding office applications and programs. It is a uniquely-specified corporate machine that boasts a perfect resolution display and an adequate storage system. With a docking port, it permits extension of interface variety and you can easily connect to additional stationery devices hence providing adequate office performance. It is easy to manage since it is standardized. Order your Latitude E5540 with a port replicator accessory at Juma at a pocket-friendly price and an offer of a one-year warranty.",
+    "price": 1300000,
+    "disc_price": 969000,
+    "specs": "## This Certified Refurbish product \r\n1. Intel Core i7 2.6GHz 3rd Gen\r\n2. 4GB DDR3\r\n3. 320GB  Hard Drive.\r\n4. 12.5\" LED Widescreen display.\r\n5. Windows 10 Pro 64-bit Operating System with Bascic software installed",
+    "available": true,
+    "created": "2021-07-13T15:57:20.026Z",
+    "updated": "2021-07-14T09:55:45.057Z",
+    "prec": 25
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 2,
+  "fields": {
+    "name": "Lenovo V530T TWR,Pentium G5400 ,4GB, 1TB , DVD±RW, Dos - Black",
+    "image": "product/2021/07/14/1_1.jpg",
+    "slug": "lenovo-v530t-twrpentium-g5400-4gb-1tb-dvdrw-dos-black",
+    "product_type": 1,
+    "desc": "HP 15.6\" HD Intel Pentium Gold, 4GB RAM, Win10 S - Scarlet Red   HP 15.6\" HD (1366 x 768) LED Display Laptop PC, Intel Pentium Gold 6405U Dual-Core Processor, 4GB DDR4 RAM, 500GB HD, HDMI, Webcam, 802.11ac, Bluetooth, Windows 10 S, Red   This attractive HP laptop features a 15.6\" good and attractive colour display, thanks to which users can enjoy vivid & crisp images anytime anywhere. To satisfy the needs of entertainment lovers, the laptop is equipped with dual speakers.  \r\nYour Professional Workmate\r\nRedefine your professional experience using the HP Pavilion 15 inch laptop that has been specially engineered to meet your business needs. The Pavilion 15 PC from HP guarantees complete customer satisfaction and offers you a portable way to stay updated with your assignments and presentations even when you are on the go. Bid farewell to the conventional bulky desktop models and bring perfection and portability home with this exclusive HP Notebook PC.\r\n\r\n\r\n\r\nElegant and Sleek Design\r\nThe HP Pavilion 15 inches laptop has an elegant look and sleek finish to captivate you. It comes in a metallic grey shade that adds to its appeal. The laptop has got the appropriate dimensions so that you can store or carry it with ease. \r\n\r\nCarry it to your office or wherever you need to without the slightest difficulty and make the most of it. Its light weight adds to its portability and makes it a delight for the users.\r\n\r\n \r\n\r\nCommunication and Connectivity  Features\r\nThe HP 15.5 inch laptop is also advanced in terms of the connectivity features. The device is Wi-Fi enabled and supports the WLAN feature that enables you to connect the laptop to the internet and enjoy browsing the internet at blazing speed.\r\n\r\nThese features make life much easier. There are various useful ports that the laptop features to enable better performance of the device. There is one USB 3.0 port, two USB 2.0 ports and one HDMI port offered. Additionally, the laptop has an AC Power, an RJ-45 and a stereo microphone-in or headphone-out combo port provided so that you have no difficulty plugging in different devices into it.\r\n\r\n \r\n\r\nTechnical Specifications\r\nBrand : HP\r\nOS : Windows 10\r\nRam : 4GB\r\nProcessor : Intel Pentium Gold\r\nHDD : 500 GB\r\nprocessor speed : 2.4GHZ",
+    "price": 1450000,
+    "disc_price": null,
+    "specs": "- Intel Dual Core\r\n- 4GB RAM, 1TB SATA\r\n- DOS ( No Windows )\r\n- Condition: Brand New 1 Year Warranty\r\n- Special Offer Includes Lenovo 18.5 LED Monitor",
+    "available": true,
+    "created": "2021-07-13T21:37:04.608Z",
+    "updated": "2021-07-14T12:39:42.540Z",
+    "prec": null
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 3,
+  "fields": {
+    "name": "DELL Vostro 3671 DC 4G 1TB DVDRW 20\" Monitor - Black",
+    "image": "product/2021/07/13/1_1.jpg",
+    "slug": "dell-vostro-3671-dc-4g-1tb-dvdrw-20-monitor-black",
+    "product_type": 1,
+    "desc": "Available with Windows 10 Pro - for a smooth, versatile PC experience.Performance workhorse\r\nPerformance workhorse\r\nPacked with power: Blast through your workload quickly and efficiently with up to 8th Gen Intel® Core™ i7 processors and up to 16GB DDR4 2666 MHz memory. With six cores, your performance gets a serious boost and you can do more at once in less time.\r\n\r\nMore multi-tasking: Run multiple apps faster and enjoy sharp, high-quality visuals on everything from PowerPoint presentations to video edits with up to 2GB GDDR5 NVIDIA® GeForce® GTX 1030 Ti graphics.\r\n\r\nEasy expansion: Get up to 2TB of solid state storage for easy access to all the files, photos and videos you need. For enhanced performance, add up to 512GB PCIe M.2 SSD or choose dual drives so you can run more programs at once without sacrificing speed.Supports up to 4GB GDDR5 NVIDIA GeForce GTX 1050 Ti graphics.Desk-friendly design\r\nDesk-friendly design\r\nCool factor: The unique mesh design on the front of the system incorporates additional vents, for reduced dust, faster cooling and an overall improvement in performance. Color options vary by region.\r\n\r\nSpace saver: With a small footprint, the Vostro tower leaves plenty of desk space open while keeping ports within easy reach.\r\nSeamless security\r\nSeamless security\r\nEncryption de-mystified: Enjoy commercial-grade security including Hardware TPM 2.0—hardware protection and storage for encryption keys that verify your device as unique and trusted.\r\n\r\nRestricted access: Be assured that unauthorized users aren't accessing your systems thanks to Bitlocker, offering options for multi-factor authentication and system lock-down without the appropriate personal identification number (PIN).Ports & Slots\r\nPorts & Slots",
+    "price": 1750000,
+    "disc_price": 1000000,
+    "specs": "1. ODD LED Lens - \r\n2. Optical Drive - \r\n3. Power On Button - \r\n4. HDD LED Lens - 5. SD Card - \r\n6. Universal Audio Jack - \r\n7. USB 3.0 Ports (2) - \r\n8. Line In/Out - 9. HDMI - \r\n10. VGA Connector - \r\n11. USB 2.0 Ports (4) - \r\n12. Gigabit Ethernet - \r\n13. Expansion Slots (4) - \r\n14. Security Cable Slot - \r\n15. Power Supply UnitDimensions & Weight\r\nDimensions & Weight\r\n1. Width: 160mm (6.3\") - \r\n2. Depth: 289mm (11.39\") - \r\n3. Height: 373.6mm (14.71\") - Starting weight: 5.27kg (11.6 lbs)",
+    "available": true,
+    "created": "2021-07-13T23:06:44.000Z",
+    "updated": "2021-07-14T09:28:07.411Z",
+    "prec": 42
+  }
+},
+{
+  "model": "stock.product",
+  "pk": 4,
+  "fields": {
+    "name": "SHARE THIS PRODUCT   Hp Certified Refurbished 14\" HP EliteBook 840 Core i5, 8GB RAM, 500GB HDD - Silver",
+    "image": "product/2021/07/14/1.jpg",
+    "slug": "share-this-product-hp-certified-refurbished-14-hp-elitebook-840-core-i5-8gb-ram-500gb-hdd-silver",
+    "product_type": 2,
+    "desc": "Everyday computing just got easier with the HP Elitebook 840 Notebook PC. Enjoy true reliability on the road or at home with a simple, yet powerful value-packed Notebook that gets the job done. Fully loaded with an Intel Core Processor, the HP Elitebook 840 Notebook PC makes for a speedy and efficient PC. The ample space to store all crucial data safely. The 14-inch HD LED-Backlit display provides for crystal clear viewing. The HP Elitebook 840 Notebook PC is also pre-loaded with Microsoft Windows 10 (64-Bit) that offers a user-friendly interface.\r\n\r\nThe HP EliteBook 840 thin and light notebook is ultra-mobile in and out of the office. Work with confidence thanks to proven enterprise technologies, security, performance, and management features that will meet all your enterprise’s needs. Give your fast-paced business an edge with the world’s most secure and manageable PCs. This Machine is an impressive Elite 840 with an elegant thin design, there is a perfect Elite solution for your business. Portable Powerhouse Combine high performance technology and good battery life with Intel Core i processors and a massive storage, this laptop has proven to be one of the best performer by HP. Drive performance with up to DDR3 RAM memory, and dual storage options for your most demanding business applications and fast access to data. Equipped for Productivity When it comes to power of connectivity, this becomes a must have laptop. Leave dongles behind with a drop-jaw Ethernet port, VGA port, and DisplayPort for key connections to all your devices. Stay connected with co-workers and customers with HP Connection Manager\r\n\r\nGreat Audio Experience Watch all your favorite movies and listen to the latest tunes the way they were supposed to be heard with this HP's Dual Speakers and Dolby Advanced Audio. The way you experience your entertainment will never be the same again. Road Ready Never fear bumps and minor spills. The thin, light, and stylish HP EliteBook 840 endures HP’s Total Test Process and passes rigorous MIL-STD 810G testing. Additionally, all the features IT expects including an expanded security portfolio and manageability tools to fulfill the needs for your business.\r\n\r\nIdeal for work or play, the HP EliteBook 840 14\" Laptop features an Intel Core i processor and DDR3L memory. Store photos, music, movies and more on the massive hard drive.\r\n\r\nFeatures Brilliant Design: Power to perform in a distinctively designed, ultra-slim  laptop. Ultrabright display with anti-glare. Work in almost any light with the outdoor viewable display.\r\n\r\nIntel® Core™ i mobile processor Ultra-low-voltage platform. Dual-core, four-way processing provides maximum high-efficiency power to go. Intel Turbo Boost Technology delivers dynamic extra power when you need it.\r\n\r\nAmple system memory for intense multitasking: Reams of high-bandwidth DDR3L RAM to smoothly run your graphics-heavy applications, as well as numerous programs and browser tabs all at once.\r\n\r\nHard drive (HDD): While offering more storage space ,Store 213,000 photos, 91,000 songs or 168 hours of HD video and more\r\nIntel® HD Graphics: On-processor graphics with shared video memory provide everyday image quality for Internet use\r\nBuilt-in stereo speakers: Sound creates a virtual surround sound experience for your music, movies, streaming Web content and games.\r\n\r\nWINDOWS 10: Windows 10 delivers an even better Start Menu, expanding the possibilities and bringing over your favorite apps and pins so they're easily accessible. Not only does it make multitasking easier than ever, it also interoperates well with software and hardware you already have, allowing you to stay productive whenever you need to get to work. Specifically, you can view up to four apps and all open tasks at one time.",
+    "price": 2430000,
+    "disc_price": 1500000,
+    "specs": "- Processor: Intel i5\r\n- Display: 14 inch Display\r\n- Memory: 8GB DDR3 Ram\r\n- Hard Drive: 500GB HDD\r\n- Operating system: Windows 10",
+    "available": true,
+    "created": "2021-07-14T11:37:23.220Z",
+    "updated": "2021-07-14T11:40:56.367Z",
+    "prec": 38
+  }
+}
+]

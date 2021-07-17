@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Login{% endblock %}
+
+{% block navbar %}
+{% endblock %}
+{% block content %}
+
+{% if messages %}
+    {% for message in messages %}
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong><i class="bi-check-circle-fill" style="font-size: 1rem;"></i></strong> {{ message }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    {% endfor %}
+{% endif %}
+
+<div class="d-flex justify-content-center mt-5">
+    
+    <div class="card border-0 p-2" style="width: 25rem;">
+        <i class="bi-cart-fill mr-1 text-warning p-2 mt-2" style="font-size: 2rem; margin-left: 5rem;">Nano-Tech</i>
+        <form method="POST" class="p-4">
+            {{ form|crispy }}
+            {% csrf_token %}
+            <button type="submit" class="btn btn-warning text-white btn-block">Login</button>
+        </form>
+    </div>
+</div>
+{% endblock %}

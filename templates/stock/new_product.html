@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+{% block title %}Add Product{% endblock %}
+
+{% block content %}
+{% if form.errors %}
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <strong>Authentication Error!</strong> Please enter a correct username and password. Note that both fields may be case-sensitive.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+{% endif %}
+
+<h5 class="text-warning p-3 bg-white">Add New Product</h5>
+<div class="d-flex justify-content-center">
+    <div class="card border-0 p-2" style="width: 55rem;">
+        <form method="POST" class="p-4" enctype="multipart/form-data">
+            {% crispy form %}
+            {% csrf_token %}
+        </form>
+    </div>
+</div>
+
+{% endblock %}
